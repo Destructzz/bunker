@@ -20,10 +20,6 @@
     <div class="TextInputNick">Введите ваш ник</div>
     <input class="inputnick" id="inputnick" type="text">
     
-    
-
-
-
 </div>
     <script src="main.js"></script>
 </body>
