@@ -7,21 +7,16 @@
     <title>Document</title>
 </head>
 <body>
-    <!-- <div class="MainCountainer">
-    <div class="TitleBunker">
-        <b>
-            БУНКЕР
-        </b>
-    </div> -->
-    <?php include "includes\header.php"?>
+    <?php include "includes\header.php";?>
     <div class="border"></div>
     <div class="TextCreateRoom">
         Создание румы
     </div>
     <div class="TextInputNick">Введите ваш ник</div>
     <input class="inputnick" id="inputnick" type="text">
-    
-</div>
+    <button class = "ready-to-play">Играть</button>
+    </div>
+    <?php include "includes\footer.php";?>
     <script src="main.js"></script>
 </body>
 </html>

@@ -24,7 +24,7 @@ body{
     font-size: 30px;
     text-align: center;
     color: beige;
-    margin-top: 30px;
+    margin-top: 60px;
 }
 
 .inputnick{
@@ -39,4 +39,15 @@ body{
 .TextInputNick{
     color: beige;
     font-size: 20px;
+}
+
+.ready-to-play {
+    width: 150px; /* Ширина кнопки */
+    height: 35px; /* Высота кнопки */
+    background-color: rgb(62, 62, 62);
+    color: beige;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px; /* Добавлено для отступа */
+    cursor: pointer;
 }
