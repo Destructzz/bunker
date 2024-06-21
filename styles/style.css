@@ -58,3 +58,33 @@ body{
 .ready-to-play:active{
     transform: scale(0.95);
 }
+
+.FooterMainText{
+    padding-top: 20px;
+    text-align: center;
+    margin: 300px 0px 0px 0px;
+    font-size: 14px;
+    color: aliceblue;
+    background-color: rgb(37, 36, 36);
+    width: 1885px;
+    height: 400px;
+}
+
+.footer {
+    background-color: #101010;
+    color: #838383;
+    padding: 20px 250px; /* Верхний/нижний и левый/правый отступы */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-sizing: border-box; /* Учитывает отступы в ширину элемента */
+}
+
+.footer p {
+    margin: 10px 0;
+    font-size: 14px;
+}
+
+.PravaNashiXD{
+    font-size: 10px;
+}
