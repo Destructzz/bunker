@@ -10,6 +10,7 @@ entrybutton.addEventListener('click', function(event){
     }
     else{
         username = inputnick.value;
+        localStorage.setItem('username', username);
         window.location.href = 'lobby.php';
     }
 });
