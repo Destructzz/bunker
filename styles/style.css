@@ -21,10 +21,10 @@ body{
 }
 
 .TextCreateRoom{
-    font-size: 30px;
+    font-size: 45px;
     text-align: center;
     color: beige;
-    margin-top: 60px;
+    margin: 60px;
 }
 
 .inputnick{
@@ -48,7 +48,7 @@ body{
     color: beige;
     border: none;
     border-radius: 5px;
-    margin: 20px; /* Добавлено для отступа */
+    margin: 15px; /* Добавлено для отступа */
     cursor: pointer;
 }
 .ready-to-play:hover{
@@ -57,4 +57,7 @@ body{
 }
 .ready-to-play:active{
     transform: scale(0.95);
+}
+.input-errors{
+    color: red;
 }
