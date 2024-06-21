@@ -16,7 +16,13 @@
     <input class="inputnick" id="inputnick" type="text">
     <button class = "ready-to-play">Играть</button>
     </div>
-    <?php include "includes\footer.php";?>
+    <div class = "input-errors">
+        некоректый ввод
+    </div>
+    <?php include "includes\\footer.php";?>
+
+
+
     <script src="main.js"></script>
 </body>
 </html>

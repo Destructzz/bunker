@@ -48,6 +48,13 @@ body{
     color: beige;
     border: none;
     border-radius: 5px;
-    margin-top: 20px; /* Добавлено для отступа */
+    margin: 20px; /* Добавлено для отступа */
     cursor: pointer;
+}
+.ready-to-play:hover{
+    background-color: rgb(92, 92, 92);
+    transition: 0.2s;
+}
+.ready-to-play:active{
+    transform: scale(0.95);
 }
