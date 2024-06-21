@@ -13,16 +13,14 @@
         Создание румы
     </div>
     <div class="TextInputNick">Введите ваш ник</div>
-    <input class="inputnick" id="inputnick" type="text">
-    <button class = "ready-to-play">Играть</button>
-    </div>
-    <div class = "input-errors">
-        некоректый ввод
+    <input class="inputnick" id="inputnick" type="text" placeholder="Введите никнейм">
+    <div class = "input-errors" id = "entry-erorr-msg"></div>
+    <button class = "ready-to-play" id = "entry-button">Играть</button>
     </div>
     <?php include "includes\\footer.php";?>
 
 
 
-    <script src="main.js"></script>
+    <script src="js\register.js"></script>
 </body>
 </html>
