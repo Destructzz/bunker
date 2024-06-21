@@ -58,6 +58,17 @@ body{
 .ready-to-play:active{
     transform: scale(0.95);
 }
-.input-errors{
-    color: red;
+
+.footer {
+    background-color: #101010;
+    color: #b0b0b0;
+    padding: 20px 250px; /* Верхний/нижний и левый/правый отступы */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-sizing: border-box; /* Учитывает отступы в ширину элемента */
+}
+.footer p {
+    margin: 10px 0;
+    font-size: 14px;
 }
