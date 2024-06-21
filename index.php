@@ -7,12 +7,13 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="MainCountainer">
+    <!-- <div class="MainCountainer">
     <div class="TitleBunker">
         <b>
             БУНКЕР
         </b>
-    </div>
+    </div> -->
+    <?php include "includes\header.php"?>
     <div class="border"></div>
     <div class="TextCreateRoom">
         Создание румы
