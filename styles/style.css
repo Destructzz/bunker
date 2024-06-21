@@ -58,7 +58,7 @@ body{
 .ready-to-play:active{
     transform: scale(0.95);
 }
-.input-erorrs{
+.input-errors{
     color: red;
 }
 .footer {
