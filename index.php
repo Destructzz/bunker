@@ -31,8 +31,13 @@ if ($request !== '/' && (!file_exists($file) || is_dir($file))) {
     <button class = "ready-to-play" id = "entry-button">Играть</button>
     </div>
         <div class="ImageCreateGamePage">
-            <a href="Images/2.jpg"></a>
+            <a href="Images/2.jpg"></a> 
             <img src="Images/2.jpg" alt="2">
+            <div class="overlay-text">Добро пожаловать на страницу создания комнаты.
+             Введите сдесь свой никнейм и нажмите начать игру, а после просто скопируйте 
+             ссылку на комнату и отправте её своим друзьям. 
+             <p>Удачной игры!</p>
+            </div>   
         </div>
     <?php include "includes\\footer.php";?>
 
