@@ -10,3 +10,4 @@
                     <li><a href="#updates">Обновления</a></li>
                 </ul>
 </div>
+<div class="border"></div>

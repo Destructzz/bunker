@@ -22,7 +22,6 @@ if ($request !== '/' && (!file_exists($file) || is_dir($file))) {
 </head>
 <body>
     <?php include "includes\header.php";?>
-    <div class="border"></div>
     <div class="TextCreateRoom">
         Создание румы
     </div>
