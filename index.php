@@ -30,6 +30,10 @@ if ($request !== '/' && (!file_exists($file) || is_dir($file))) {
     <div class = "input-errors" id = "entry-erorr-msg"></div>
     <button class = "ready-to-play" id = "entry-button">Играть</button>
     </div>
+        <div class="ImageCreateGamePage">
+            <a href="Images/2.jpg"></a>
+            <img src="Images/2.jpg" alt="2">
+        </div>
     <?php include "includes\\footer.php";?>
 
 

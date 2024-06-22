@@ -119,3 +119,10 @@ nav {
 .nav-links a:hover {
     color: #55c3e2;
 }
+
+.ImageCreateGamePage{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 50%;
+}
