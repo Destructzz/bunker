@@ -8,6 +8,8 @@ body{
 .TitleBunker{
     font-size: 100px;
     color: beige;
+    display: flex;
+    justify-content: space-between
 }
 
 .MainCountainer{
@@ -90,4 +92,30 @@ body{
     user-select: none;
     font-size: 125px;
     margin: 10px;
+}
+nav {
+    display: flex;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 5px 10px;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #55c3e2;
 }
