@@ -10,7 +10,6 @@
     <?php include "includes\header.php";?>
     <div class = "username" id = "name"></div>
     <?php include "includes\\footer.php";?>
-
     <script src = "js\lobby.js"></script>
 </body>
 </html>

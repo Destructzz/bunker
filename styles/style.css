@@ -1,3 +1,5 @@
+
+
 body{
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(22, 22, 22);
@@ -73,4 +75,19 @@ body{
 .footer p {
     margin: 10px 0;
     font-size: 14px;
+}
+
+.message-404-contain{
+    color: #55c3e2;
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 50px;
+    font-style: normal;
+    font-size: 20px;
+    margin: 40px;
+}
+.message-404-contain h1{
+    user-select: none;
+    font-size: 125px;
+    margin: 10px;
 }
