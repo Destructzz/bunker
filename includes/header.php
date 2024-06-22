@@ -4,10 +4,10 @@
             БУНКЕР
         </b>
                 <ul class="nav-links">
-                    <li><a href="#home">Главная</a></li>
-                    <li><a href="#rules">Правила игры</a></li>
-                    <li><a href="#wiki">Вики</a></li>
-                    <li><a href="#updates">Обновления</a></li>
+                    <li><a href="menu.php">Главная</a></li>
+                    <li><a href="rules.php">Правила игры</a></li>
+                    <li><a href="wiki.php">Вики</a></li>
+                    <li><a href="updates.php">Обновления</a></li>
                 </ul>
 </div>
 <div class="border"></div>
