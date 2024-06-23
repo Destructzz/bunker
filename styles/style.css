@@ -142,3 +142,9 @@ nav {
     color: #ffffffc7;
     text-shadow: 2px 2px 4px #000;
 }
+.test-contain{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color:white;
+}
